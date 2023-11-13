@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.index-page.welcome {
+    margin: 5px;
+}
+
+body div h1 {
+    margin: auto;
+    margin-top: 5px;
+    width: fit-content;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.nav {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.login-box {
+    margin: auto;
+    margin-top: 5px;
+    background-color: gray;
+    width: 300px;
+    display: grid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#username-field {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#password-field {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#login-button {
+    padding: 0px 5px;
+    margin: auto;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#input-username{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#input-password {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#login-result {
+    grid-column: 1;
+    grid-row: 3;
+}
